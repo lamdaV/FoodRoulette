@@ -1,0 +1,29 @@
+{
+  "name": "foodRoulette",
+  "version": "0.0.1",
+  "description": "food decider",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Reddit",
+    "React"
+  ],
+  "author": "David Lam",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "random-js": "^1.0.8",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-router": "^2.8.1",
+    "reflux": "^0.4.1",
+    "watchify": "^3.7.0",
+    "whatwg-fetch": "^1.0.0"
+  }
+}
