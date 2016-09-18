@@ -24,16 +24,13 @@ var FoodRoulettePage = React.createClass({
           </div>
 
           <div className = "panel-body">
-            {/* TODO: onClick/onSubmit event */}
             <button className = "btn btn-primary btn-block" type = "button" onClick = {this.roll}>
               Roll!
             </button>
 
-
-
             {this.state.place ? <div> <br></br> <div className = "alert alert-info"> {this.state.place} </div> </div> : <div></div>}
-
           </div>
+
         </div>
       </div>
     );
